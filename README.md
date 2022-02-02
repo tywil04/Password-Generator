@@ -7,7 +7,7 @@ This is a simple password generator written in Python for a college project. The
 !["Random Password Generator UI"](Screenshot.png "Random Password Generator UI")
 
 # Options
-- `Has Letters`: Generate a password that contains letters (a-zA-Z)
+- `Has Letters`: Generate a password that contains letters (a-z, A-Z)
 - `Has Digits`: Generates a password that contains numbers (0-9)
 - `Has Punctuation`: Generates a password that contains all ASCII punctuation
 - `Number of characters`: Changes number of characters in the output (Who would have thought?)
