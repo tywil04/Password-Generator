@@ -8,8 +8,6 @@ This application has a graphical user interface - it does this with the aid of t
 Function names with _ is just a naming convention that signifies that these are internal functions only.
 
 This application uses the my "Williams" ttk theme to make Tkinter look nice and modern.
-
-~Tyler Williams
 """
 
 # Import Packages
