@@ -1,5 +1,5 @@
 # Password Generator
-This is a simple password generator written in Python for a college project. The bulk of the code is for the UI considering the simplicity of generating a random string (in Python at least). For the UI it uses Tkinter with my custom theme [Williams-Theme](https://github.com/unavailable-name/Williams-Theme "Williams-Theme"). The actual random nubmer generation uses `random.SecureRandom()` which internally uses os provided randomness that is classed as cryptographically secure.
+This is a simple password generator written in Python for a college project. The bulk of the code is for the UI considering the simplicity of generating a random string (in Python at least). For the UI it uses Tkinter with my custom theme [Williams-Theme](https://github.com/unavailable-name/Williams-Theme "Williams-Theme"). The actual random number generation uses `random.SecureRandom()` which internally uses os provided randomness that is classed as cryptographically secure.
 
 # Program Screenshot:
 !["Random Password Generator UI"](Screenshot.png "Random Password Generator UI")
