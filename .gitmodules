@@ -1,3 +1,3 @@
-[submodule "Williams-Theme"]
-	path = Williams-Theme
-	url = https://github.com/unavailable-name/Williams-Theme
+[submodule "tkinter-theme"]
+	path = Tkinter Theme
+	url = https://github.com/unavailable-name/tkinter-theme
