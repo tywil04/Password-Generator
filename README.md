@@ -6,7 +6,10 @@ This is a simple password generator written in Python. The bulk of the code is f
 # Program Screenshot:
 !["Random Password Generator UI"](Screenshot.png "Random Password Generator UI")
 
-# Options
+# Usage
+Run `password.py`
+
+# Program Settings:
 - `Has Letters`: Generate a password that contains letters (a-z, A-Z)
 - `Has Digits`: Generates a password that contains numbers (0-9)
 - `Has Punctuation`: Generates a password that contains all ASCII punctuation
