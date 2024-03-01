@@ -1,10 +1,10 @@
-# Password Generator
+# Secrets
 This is a simple password generator written in Python. The bulk of the code is for the UI considering the simplicity of generating a random string in Python. For the UI it uses Tkinter with my custom theme [Tkinter-Theme](https://github.com/tywil04/tkinter-theme "Tkinter-Theme"). The actual random number generation uses `random.SecureRandom()` which internally uses OS provided randomness that is classed as cryptographically secure.
 
 **WARNING**: Do not actually use to generate passwords. This program has not been tested at all for its overall security.
 
-# Program Screenshots:
-!["Random Password Generator UI"](Screenshot.png "Random Password Generator UI")
+# Screenshots:
+!["Secrets Application"](/secrets.png)
 
 # Usage
 Run `password.py`

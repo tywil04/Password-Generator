@@ -6,8 +6,6 @@ All packages used in this script are built-in packages.
 This application has a graphical user interface - it does this with the aid of the TK UI toolkit.
 
 Function names with _ is just a naming convention that signifies that these are internal functions only.
-
-This application uses the my "Williams" ttk theme to make Tkinter look nice and modern.
 """
 
 # Import Packages
@@ -16,6 +14,7 @@ from tkinter import ttk;
 from tkinter import filedialog as fd;
 from tkinter import messagebox as mb;
 import os, string, random;
+import pywinstyles
 
 # Global Variables
 cwd = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/"); # Current working directory
@@ -68,11 +67,16 @@ class passwordWindow():
 
         # Window
         self.window = tk.Tk(); # Create window
-        self.window.call("source", cwd + "/Williams Theme/Williams.tcl")
-        ttk.Style().theme_use('Williams')
-        self.window.title("Password Generator");
+        self.window.call("source", cwd + "/minimal-tkinter/minimal-tkinter.tcl");
+        ttk.Style().theme_use('minimal-tkinter');
+        self.window.title("Secrets");
         self.window.geometry("420x190");
         self.window.resizable(width=False, height=False);
+	
+        if os.name == "nt":
+                pywinstyles.apply_style(self.window, "dark")
+
+        self.window.iconbitmap(default="icon.ico")
 
         # Output Display
         self.outputWindow = ttk.Entry(self.window, state="readonly");
